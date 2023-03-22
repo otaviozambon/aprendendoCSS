@@ -1,5 +1,6 @@
 body {
     background-image: url("fundo2.jpg");
+    font-family: "Sofia", sans-serif;
   }
   
   h1 {
@@ -20,6 +21,31 @@ body {
 
   .fonte-verde {
     color: rgb(255, 255, 255);
-    border-style: dotted;
-    border-width: 2px;
   }
+    
+   h1{
+    color:rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-right: solid;
+    
+   } 
+
+   .link a{
+    text-decoration: none;
+    color: rgb(108, 24, 156);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0); 
+   }
+
+   .link {
+    text-align: center;
+    font-size: 30px;
+    text-transform: lowercase;
+    border-style: solid;
+    border-color: rgb(31, 5, 158);
+   }
+   .link a{
+    text-decoration: none;
+    color:rgb(7, 0, 112);
+    text-shadow: 2px 2px 5px rgb(195, 195, 195);
+   }
